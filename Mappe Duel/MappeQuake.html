@@ -1,0 +1,52 @@
+<!--
+Copyright 2019 Galassi Lucas Ezequiel
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<style>
+#mappa { font-size:150px; color:#ff0; width:100%; height:100%;  background-size: 100% 100%}
+</style> 
+<div id="mappa"> 
+<script>
+var a = Math.floor(Math.random() * 7 )+ 1;
+if (a == 1) {
+  document.write("LA MAPPA SCELTA &Egrave;: Awoken");
+  document.getElementById('mappa').style.backgroundImage = "url('back/aw.jpg')";
+  } else if (a == 2) {
+  document.write("LA MAPPA SCELTA &Egrave;: Blood Covenant");
+  document.getElementById('mappa').style.backgroundImage = "url('back/bc.jpg')";
+  } else if (a == 3) {
+  document.write("LA MAPPA SCELTA &Egrave;: Blood Run");
+  document.getElementById('mappa').style.backgroundImage = "url('back/br.jpg')";
+  } else if (a == 4) {
+  document.write("LA MAPPA SCELTA &Egrave;: Corrupted Keep");
+  document.getElementById('mappa').style.backgroundImage = "url('back/ck.jpg')";
+  } else if (a == 5) {
+  document.write("LA MAPPA SCELTA &Egrave;: Ruins of Sarnath");
+  document.getElementById('mappa').style.backgroundImage = "url('back/ros.jpg')";
+  } else if (a == 6) {
+  document.write("LA MAPPA SCELTA &Egrave;: The Molten Falls");
+  document.getElementById('mappa').style.backgroundImage = "url('back/tmf.jpg')";
+  } else {
+  document.write("LA MAPPA SCELTA &Egrave;: Vale of Pnath");
+  document.getElementById('mappa').style.backgroundImage = "url('back/vop.jpg')";
+  }
+</script>
+</div>
+		<script type="text/javascript">
+		var data = new Date();
+		var aaaa;
+		aaaa = data.getFullYear();
+		document.write(aaaa);
+		</script>
+		Software released under:<a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank"> Apache License v.2</a>
